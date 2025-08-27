@@ -1,0 +1,79 @@
+header {
+  background-color: #1f2937;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 220px ;
+}
+
+.header-links img {
+    width: 130px;
+}
+
+.links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+.header-content {
+    display: flex;
+    text-align: start;
+    padding: 80px 220px;
+    /* outline: 2px solid red; */
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 70px;
+}
+
+.content-text h1 {
+    color: #f9faf8;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.content-text h3 {
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.content-text p {
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.header-content img {
+  width: auto;
+  height: 300px;  
+  border-radius: 10px;
+}
+
+section.depoimentos {
+  background-color: #e5e7eb;
+}
+
+.depoimentos p {
+  font-style: italic;
+  font-size: 36;
+  color: #1f2937;
+}
+
+.depoimentos h2 {
+  font-size: 24px;
+  color: #1f2937;
+}
