@@ -28,7 +28,7 @@ header {
 .header-content {
     display: flex;
     text-align: start;
-    padding: 80px 220px;
+    padding: 50px 220px;
     /* outline: 2px solid red; */
 }
 
