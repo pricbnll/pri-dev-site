@@ -4,7 +4,6 @@
   align-items: center;
   gap: 40px;
   padding: 50px 300px;
-  outline: 2px solid red;
 }
 #services h2 {
   font-size: 36px;
@@ -53,3 +52,30 @@
   font-weight: lighter;
   text-align: center;
 }
+
+#depoiment {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 80px 300px;
+  background-color: #e5e7eb;
+  outline: 2px solid red;
+}
+    
+
+#depoiment p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+  font-weight: 300;
+}
+
+#depoiment h2 {
+  font-size: 24px;
+  color: #1f2937;
+  text-align: end; 
+  font-weight: 800;
+  padding-right: 50px;
+}
+
